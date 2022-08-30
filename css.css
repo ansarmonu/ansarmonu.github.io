@@ -57,6 +57,10 @@ body{
 .color{
     color: #088CDA;
 }
+.logoboxrelative{
+    position:absolute;
+    right: 30vh;
+}
 .logoboxContainer{
     height: 70px;
     width: 70px;
