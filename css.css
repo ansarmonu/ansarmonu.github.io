@@ -145,6 +145,10 @@ body{
     color: #014D5D;
 }
 @media only screen and (min-width: 350px) and (max-width: 500px){
+    .main-card{
+        margin-top: 1vh;
+        border-radius: 40px 120px;
+    }
     .colorboxContainer{
         width:30vw;
     }
@@ -159,6 +163,12 @@ body{
         display: none;
     }
     .logo{
-        margin-left: 1vw;
+        margin-left: 5vw;
+        height: 50px;
+        width: 50px;
+    }
+    .main-text{
+        font-size: 5vh;
+        margin-left: 10vw;
     }
 }
