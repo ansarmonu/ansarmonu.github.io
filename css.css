@@ -138,3 +138,21 @@ body{
 .link{
     color: #014D5D;
 }
+@media only screen and (min-width: 350px) and (max-width: 500px){
+    .colorboxContainer{
+        width:30vw;
+    }
+    .anime{
+        height: 20px;
+        width: 20px;
+    }
+    .text-box{
+        margin-left: 12vw;
+    }
+    .logoboxContainer{
+        display: none;
+    }
+    .logo{
+        margin-left: 1vw;
+    }
+}
