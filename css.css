@@ -21,6 +21,7 @@ head{
 }
 .area li{
     display: inline-block;
+    margin-right: 145px;
 }
 .area li a{
     color: brown;
