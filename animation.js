@@ -3,12 +3,14 @@ var span=document.querySelector(".color")
 
 
 let animation=[
-	{text:"N",delay:500},
-	{text:"NO",delay:1000},
-	{text:"NOT",delay:1500},
-	{text:"NOTE",delay:2000},
-	{text:"NOTES",delay:2500},
-	{text:"NOTES.",delay:3000}
+	{text:"P",delay:500},
+	{text:"PR",delay:1000},
+	{text:"PRO",delay:1500},
+	{text:"PROG",delay:2000},
+	{text:"PROGR",delay:2500},
+	{text:"PROGRA.",delay:3000}
+	{text:"PROGRAM.",delay:3500}
+	{text:"PROGRAMZ.",delay:4000}
 ]
 
 let caller=(text,delay)=>{
