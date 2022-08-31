@@ -8,9 +8,9 @@ let animation=[
 	{text:"PRO",delay:1500},
 	{text:"PROG",delay:2000},
 	{text:"PROGR",delay:2500},
-	{text:"PROGRA.",delay:3000},
-	{text:"PROGRAM.",delay:3500},
-	{text:"PROGRAMZ.",delay:4000}
+	{text:"PROGRA",delay:3000},
+	{text:"PROGRAM",delay:3500},
+	{text:"PROGRAMZ",delay:4000}
 ]
 
 let caller=(text,delay)=>{
