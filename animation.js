@@ -10,8 +10,7 @@ let animation=[
 	{text:"PROGR",delay:2500},
 	{text:"PROGRA",delay:3000},
 	{text:"PROGRAM",delay:3500},
-	{text:"PROGRAMZ",delay:4000},
-	{text:"PROGRAMZ.",delay:4500}
+	{text:"PROGRAMZ",delay:4000}
 ]
 
 let caller=(text,delay)=>{
