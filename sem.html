@@ -44,12 +44,79 @@ button:hover{
               0 0 10px 2px #799be6;
   border-radius: 20px;
 }
+.nail{
+            top: 20rem;
+            left: 500px;
+            height: 30px;
+            width: 30px;
+            border: 1px solid white;
+            border-radius: 5px;
+            background:red;
+            box-shadow: 0 0 5px 2px deepskyblue;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            animation: hangingRotate 3s linear infinite;
+        }
+        .nail::after{
+            content: ' ';
+            position: absolute;
+            top: 5px;
+            right: 2px;
+            background-color: red;
+            height: 50px;
+            width: 5px;
+            z-index: -1;
+        }
+        .nail::before{
+            content: ' ';
+            position: absolute;
+            top: 5px;
+            right: 2px;
+            background-color: greenyellow;
+            height: 50px;
+            width: 5px;
+            z-index: -1;
+        }
+        .image{
+            height: 360px;
+            width: 260px;
+            cursor: pointer;
+            z-index: 10;
+            margin-top: 3rem;
+        }
+        .image img{
+            height: 100%;
+            width: 100%;
+            transition: 0.3s;
+            border-radius: 10px;
+        }
+        @keyframes hangingRotate {
+            0%,
+            100 {
+                transform: rotate(5deg);
+            }
+            25% {
+                transform: rotate(0deg);
+            }
+            50% {
+                transform: rotate(-5deg);
+            }
+            
+        }
     </style>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <body>
+<div class="nail">
+        <div class="image">
+            <img src="logo.jpg" alt="mon">
+        </div>
+    </div>
+
     <center>
         <h1>BSC COMPUTER SCIENCE</h1>
     </center>
@@ -57,18 +124,16 @@ button:hover{
         <h3>Select the semester you want✨:</h3>
     </u>
         <a href="semester1.html" class="botton">
-        <center><button>🟦SEMESTER 1</button></center></a><br><br>
+        <left><button>🟦SEMESTER 1</button></left></a><br><br>
         <a href="semester2.html">
-            <center><button>🟩SEMESTER 2</button></center></a><br><br><br><br>
+            <left><button>🟩SEMESTER 2</button></left></a><br><br><br><br>
         <a href="semester3.html">
-            <center><button>🟦SEMESTER 3</button></center></a><br><br><br><br>
+            <left><button>🟦SEMESTER 3</button></left></a><br><br><br><br>
         <a href="semester4.html">
-            <center><button>🟩SEMESTER 4</button></center></a><br><br><br><br>
+            <left><button>🟩SEMESTER 4</button></left></a><br><br><br><br>
         <a href="semester5.html">
-            <center><button>🟦SEMESTER 5</button></center></a><br><br><br><br>
+            <left><button>🟦SEMESTER 5</button></left></a><br><br><br><br>
         <a href="semester6.html">
-            <center><button>🟩SEMESTER 6</button></center></a><br><br><br><br>
-        <a href="cyber.html">
-            <center><button>🟦CYBER SECURITY</button></center></a><br><br><br><br>
+            <left><button>🟩SEMESTER 6</button></left></a><br><br><br><br>
 </body>
 </html>
